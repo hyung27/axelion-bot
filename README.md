@@ -1,2 +1,4 @@
-# axelion-bot
-Simple WhatsApp Bot
+# bash
+```
+npm i
+```
