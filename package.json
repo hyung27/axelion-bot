@@ -1,0 +1,42 @@
+{
+  "name": "axelion-bot",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp Bot",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "check": "prettier . --check",
+    "write": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyung27/axelion-bot.git"
+  },
+  "keywords": [
+    "axelion-bot",
+    "multi-device",
+    "whatsapp-api",
+    "whatsapp-bot"
+  ],
+  "author": "Hyung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyung27/axelion-bot/issues"
+  },
+  "homepage": "https://github.com/hyung27/axelion-bot#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "moment-timezone": "^0.5.46",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "@hapi/boom": "^10.0.1",
+    "link-preview-js": "^3.0.12",
+    "pino-pretty": "^13.0.0",
+    "prettier": "^3.4.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

@@ -1,0 +1,11 @@
+.config
+.build
+.cache
+.upm
+.tmp
+.git
+replit.nix
+.replit
+package.json
+package-lock.json
+yarn.lock
